@@ -1,0 +1,67 @@
+{
+    "booklist": [
+        {
+            "Id": 1,
+            "Book Title": "The jungle book",
+            "Author": " Rudyard Kipling",
+            "Publisher Name": " Macmillan",
+            "Poster": "http://www.impawards.com/2016/posters/jungle_book.jpg"
+        },
+        {
+            "Id": 2,
+            "Book Title": "The Secret of the Nagas",
+            "Author": " Amish Tripathi",
+            "Publisher Name": " Westland Press",
+            "poster": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Secret_of_the_Nagas.jpg"
+        },
+        {
+            "Id": 3,
+            "Book Title": "A Tale of Two Cities",
+            "Author": " Charles Dickens",
+            "Publisher Name": " Chapman & Hall",
+            "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUneoEtqKdrVflXVD8zMK1yGV7vd4Bb38XA&usqp=CAU"
+        },
+        {
+            "Id": 4,
+            "Book Title": "Wings of Fire ",
+            "Author": " A P J Abdul Kalam,Arun Tiwari ",
+            "Publisher Name": "Universities Press",
+            "poster": "https://rukminim2.flixcart.com/image/416/416/juk4gi80/book/4/6/6/wings-of-fire-original-imaffmk4gx5pxqvf.jpeg?q=70"
+        },
+        {
+            "Id": 5,
+            "Book Title": "ignited minds ",
+            "Author": " A. P. J. Abdul Kalam",
+            "Publisher Name": "Penguin Random House India ",
+            "poster": "https://rukminim2.flixcart.com/image/416/416/kjrh2fk0/book/2/w/b/ignited-minds-original-imafz9hxnezg2gm5.jpeg?q=70"
+        },
+        {
+            "Id": 6,
+            "Book Title": "A Suitable Boy",
+            "Author": " Vikram Seth ",
+            "Publisher Name": " HarperCollins ",
+            "poster": "https://upload.wikimedia.org/wikipedia/en/f/f6/Asuitableboy.jpg"
+        },
+        {
+            "Id": 7,
+            "Book Title": "The God of Small Things",
+            "Author": "Arundhati Roy ",
+            "Publisher Name": " IndiaInk,",
+            "poster": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1318966691l/37819.jpg"
+        },
+        {
+            "Id": 8,
+            "Book Title": "The Girl in Room 105",
+            "Author": " Chetan Bhagat",
+            "Publisher Name": "  Westland Books",
+            "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQJMWW4uRDBx7bSo_9AsItP6wL4P81wWQKIiF9E-4Se4cgO3TH"
+        },
+        {
+            "Id": 9,
+            "Book Title": "One Indian Girl ",
+            "Author": " Chetan Bhagat",
+            "Publisher Name": "Rupa & Co. ",
+            "poster": "https://n3.sdlcdn.com/imgs/c/v/i/9788129142146-a2298.jpg"
+        }
+    ]
+}

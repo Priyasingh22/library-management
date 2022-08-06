@@ -1,13 +1,423 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/old.jpg)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sweethome {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  margin: 180px;
+}
+
+.container {
+  border: 3px solid black;
+  height: 440px;
+  width: 280px;
+  background-color: grey;
+  color: white;
+}
+
+.container:hover {
+  background-color: cornflowerblue;
+}
+
+.subcnt {
+  border: 3px solid black;
+  height: 440px;
+  width: 280px;
+  background-color: grey;
+}
+
+.subcnt:hover {
+  background-color: cornflowerblue;
+}
+
+#btn1 {
+  font-size: xx-large;
+}
+
+#btn1:hover {
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn2 {
+  font-size: xx-large;
+}
+
+#btn2:hover {
+  background-color: aquamarine;
+}
+
+.logs {
+  /* border: 3px double red; */
+  text-align: center;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+  /* background-color: lightseagreen; */
+}
+
+.sublogs {
+  margin: 350px;
+  justify-content: center;
+  width: 45%;
+  height: 650px;
+
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: white;
+  text-align: center;
+
+}
+
+.sublogs:hover {
+  background-color: lightslategray;
+}
+
+.mail {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.mail input {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.pswrd {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.pswrd input {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+#butn {
+  margin-top: 30px;
+  font-size: xx-large;
+}
+
+#butn:hover {
+  background-color: cadetblue;
+}
+
+.portal {
+  background-color: darkseagreen;
+  display: flex;
+
+}
+
+#oot {
+  justify-content: center;
+  font-size: xx-large;
+  margin-left: 1050px;
+  justify-items: center;
+  background-color: cadetblue;
+  margin-top: 25px;
+}
+
+#oot:hover {
+  background-color: darkred;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+
+}
+
+.add {
+  border: solid 3px red;
+  color: red;
+  height: 380px;
+  width: 285px;
+}
+
+.add:hover {
+  background-color: darkseagreen;
+}
+
+.add h2 {
+
+  text-align: center;
+}
+
+.add img {
+  margin-left: 35px;
+}
+
+#oks {
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: aquamarine;
+
+}
+
+#oks:hover {
+  background-color: red;
+}
+
+.new {
+  border: solid 3px red;
+  height: 380px;
+  width: 285px;
+  color: red;
+}
+
+.new:hover {
+  background-color: darkseagreen;
+}
+
+.new h2 {
+  text-align: center;
+}
+
+.new img {
+  margin-left: 35px;
+}
+
+#rs {
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: aquamarine;
+}
+
+#rs:hover {
+  background-color: red;
+}
+
+.list {
+  border: solid 3px red;
+  height: 380px;
+  width: 285px;
+  color: red;
+}
+
+.list:hover {
+  background-color: darkseagreen;
+}
+
+.list h2 {
+  text-align: center;
+}
+
+.list img {
+  margin-left: 35px;
+}
+
+#lst {
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: aquamarine;
+}
+
+#lst:hover {
+  background-color: red;
+}
+
+.ul {
+  border: solid 3px red;
+  height: 380px;
+  width: 285px;
+  color: red;
+}
+
+.ul:hover {
+  background-color: darkseagreen;
+}
+
+.ul h2 {
+  text-align: center;
+}
+
+.ul img {
+  margin-left: 35px;
+}
+
+#t {
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: aquamarine;
+}
+
+#t:hover {
+  background-color: red;
+}
+
+.ar {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+#dj {
+  margin-top: 25PX;
+  font-size: xx-large;
+  background-color: aquamarine;
+}
+
+#dj:hover {
+  background-color: darkred;
+}
+
+.taal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+
+.fav {
+  border: solid 3px red;
+  height: 380px;
+  width: 285px;
+  color: red;
+}
+
+.fav:hover {
+  background-color: darkseagreen;
+}
+
+.fav h2 {
+  text-align: center;
+}
+
+.fav img {
+  margin-left: 35px;
+}
+
+#lst {
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 110px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: aquamarine;
+}
+
+#lst:hover {
+  background-color: red;
+}
+
+.ad {
+  border: 3px red solid;
+  width: 800px;
+  height: 700px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 255px;
+  color: red;
+  font-size: xx-large;
+
+}
+
+.ad h1 {
+  border: 2px solid red;
+  height: 100px;
+  width: 600px;
+  margin-left: 100px;
+}
+
+.ad h1:hover {
+  background-color: black;
+}
+
+.ad:hover {
+  background-color: black;
+}
+
+.ser {
+  margin-top: 80px;
+}
+
+.ser input {
+  margin-left: 80px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.tit {
+  margin-top: 50px;
+}
+
+.tit input {
+  margin-left: 80px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.aut {
+  margin-top: 50px;
+}
+
+.aut input {
+  margin-left: 80px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.pub {
+  margin-top: 50px;
+}
+
+.pub input {
+  margin-left: 80px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.pos {
+  margin-top: 50px;
+}
+
+.pos input {
+  margin-left: 80px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.ab {
+  margin-top: 80px;
+
+}
+
+#oly {
+  font-size: xx-large;
+  background-color: darkseagreen;
+}
+
+#oly:hover {
+  background-color: darkred;
 }
